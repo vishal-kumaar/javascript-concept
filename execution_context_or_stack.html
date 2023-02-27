@@ -1,0 +1,25 @@
+<script>
+  function a() {
+    var fa = "Function a() execution starts...";
+    console.log(fa);
+    debugger;
+    b();
+    console.log("Function a() execution completed.");
+  }
+
+  function b() {
+    debugger;
+    console.log("Function b() execution starts...");
+    c();
+    console.log("Function b() execution completed.");
+  }
+
+  function c() {
+    debugger;
+    console.log("Function c() execution starts...");
+    console.log("Function c() execution completed.");
+  }
+  debugger;
+  a();
+  console.log("Program ended.");
+</script>
