@@ -1,0 +1,27 @@
+<script>
+    console.log(this); // window/global object
+
+    function func1(){
+        console.log("This is function 1");
+        console.log(this); // window/global object or in strict mode it is undefined
+    }
+
+    const myObj = {
+        name: "JavaScript",
+        type: "Programming Language",
+        method: function(){
+            console.log("This is myObj method");
+            console.log(this); // myObj
+
+            function greeting(){
+                console.log("Hello, I'm JavaScript");
+                console.log(this); // window/global object
+            }
+
+            greeting();
+        }
+    }
+
+    func1();
+    myObj.method()
+</script>
