@@ -7,3 +7,4 @@ This is the repository for the javascript core concepts such as,
 - Strict Mode
 - this Variable
 - Array is an Object
+- Pass by Reference & Value
