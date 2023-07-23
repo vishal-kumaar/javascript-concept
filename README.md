@@ -1,4 +1,4 @@
-# javascript-concept
+# Javascript Concept
 This is the repository for the javascript core concepts such as,
 
 - Execution Context and Call Stack
